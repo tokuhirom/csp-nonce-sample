@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<body>
+    <h1>CSP の nonce のサンプルです。</h1>
+
+    <script type="text/javascript" nonce="<%= @nonce %>">
+        alert("これは信用されてる");
+    </script>
+    <script type="text/javascript">
+        alert("こんにちは!こんにちは!");
+    </script>
+</body>
+</html>
