@@ -13,3 +13,6 @@ nonce として Valid な値は base64 です。
     gem install sinatra
     ruby csp.rb
 
+## LICENSE
+
+好きにして。
